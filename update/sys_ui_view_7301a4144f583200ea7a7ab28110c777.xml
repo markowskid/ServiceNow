@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,auto_order_stages</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-09 13:21:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7301a4144f583200ea7a7ab28110c777</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,auto_order_stages</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>sys_ui_view_7301a4144f583200ea7a7ab28110c777</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-09 13:21:19</sys_updated_on>
+        <title>Sys_popup,auto_order_stages</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

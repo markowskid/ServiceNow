@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Marketing Event" max_length="40" name="x_81232_marketing_marketing_event" type="collection">
+        <element label="Budget" max_length="15" name="budget" type="currency"/>
+        <element choice="1" label="City" max_length="40" name="city" type="choice">
+            <choice>
+                <element label="Dallas" sequence="0" value="Dallas"/>
+                <element label="Kansas City" sequence="1" value="Kansas City"/>
+                <element label="London" sequence="2" value="London"/>
+                <element label="San Hose" sequence="3" value="San Hose"/>
+                <element label="Portland" sequence="4" value="Portland"/>
+                <element label="Sydney" sequence="5" value="Sydney"/>
+            </choice>
+        </element>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Event Coordinator" mandatory="true" max_length="32" name="event_coordinator" reference="sys_user" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Max capacity" max_length="40" name="number_of_attendee_expected" type="integer"/>
+        <element label="Attendee Registered" max_length="40" name="number_of_attendee_registered" type="integer"/>
+        <element attributes="ref_contributions=dmi_rb_consume" choice="2" label="Sponsor" max_length="40" name="sponsor" type="string">
+            <choice>
+                <element label="Me" sequence="0" value="Me"/>
+                <element label="Her" sequence="1" value="Her"/>
+            </choice>
+        </element>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" default="New" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="Planning" sequence="1" value="Planning"/>
+                <element label="Complete" sequence="2" value="Complete"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Event cost" max_length="15" name="u_currency_1" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Budget remaining" max_length="15" name="u_currency_2" read_only="true" type="currency"/>
+        <index name="index">
+            <element name="event_coordinator"/>
+        </index>
+    </element>
+</database>

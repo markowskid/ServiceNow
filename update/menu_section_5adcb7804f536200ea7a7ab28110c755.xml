@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_section">
+    <menu_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <contains_menu/>
+        <content_block_menu display_value="Marketing Events">a69c77444f536200ea7a7ab28110c753</content_block_menu>
+        <db_left_menu_image display_value="conference.png">2fe05b3cc3522100910900251eba8fee</db_left_menu_image>
+        <db_right_menu_image/>
+        <detail_page/>
+        <footer/>
+        <header/>
+        <iframe/>
+        <image/>
+        <image_right/>
+        <logged_on>false</logged_on>
+        <menu_section_color/>
+        <name>Marketing Events</name>
+        <omit_body>false</omit_body>
+        <order>10</order>
+        <roles/>
+        <second_level_text>View active marketing events</second_level_text>
+        <sys_class_name>menu_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-20 17:41:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5adcb7804f536200ea7a7ab28110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marketing Events</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>menu_section_5adcb7804f536200ea7a7ab28110c755</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-20 17:41:26</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url>marketing_events.do</url>
+    </menu_section>
+    <sys_translated_text action="delete_multiple" query="documentkey=5adcb7804f536200ea7a7ab28110c755"/>
+</record_update>

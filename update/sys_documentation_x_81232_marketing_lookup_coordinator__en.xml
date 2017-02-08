@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="lookup_coordinator" language="en" table="x_81232_marketing_lookup_coordinator">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>lookup_coordinator</label>
+            <language>en</language>
+            <name>x_81232_marketing_lookup_coordinator</name>
+            <plural>lookup_coordinators</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-01 20:04:14</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>66d918774f203200ea7a7ab28110c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>lookup_coordinator</sys_name>
+            <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+            <sys_update_name>sys_documentation_x_81232_marketing_lookup_coordinator__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-01 20:04:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

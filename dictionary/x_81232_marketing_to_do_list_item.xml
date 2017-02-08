@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="To Do List Item" max_length="40" name="x_81232_marketing_to_do_list_item" sizeclass="5" type="collection"/>
+</database>

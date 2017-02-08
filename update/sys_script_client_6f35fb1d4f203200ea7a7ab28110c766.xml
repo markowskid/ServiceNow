@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>number_of_attendee_registered</field>
+        <global>true</global>
+        <messages/>
+        <name>dmi_mouse_test</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var control = g_form.getControl('name');
+	Event.observe(control, 'mouseover', function() {
+		g_form.hideFieldMsg(control);
+		g_form.showFieldMsg(control, 'in');
+	});
+	Event.observe(control, 'mouseout', function() {
+		g_form.hideFieldMsg(control);
+		g_form.showFieldMsg(control, 'out');
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-25 17:40:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f35fb1d4f203200ea7a7ab28110c766</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dmi_mouse_test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>sys_script_client_6f35fb1d4f203200ea7a7ab28110c766</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-25 17:40:41</sys_updated_on>
+        <table>x_81232_marketing_marketing_event</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

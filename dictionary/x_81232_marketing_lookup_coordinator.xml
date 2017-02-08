@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="lookup_coordinator" max_length="40" name="x_81232_marketing_lookup_coordinator" type="collection">
+        <element label="Coordinator" mandatory="true" max_length="32" name="coordinator" reference="sys_user" type="reference"/>
+        <element label="Event" mandatory="true" max_length="60" name="event" type="string"/>
+        <index name="index">
+            <element name="coordinator"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_81232_marketing.app_angular_todo</name>
+        <script><![CDATA[angular.module('todo', ['sn.glideAjax']);
+angular.module('todo').controller('TodoListCtrl', function($scope, GlideAjax) { 
+        $scope.todos = [];   
+		load();
+        $scope.add = function(newTodo) {       
+        $scope.todos.push(newTodo);   
+		var ga = new GlideAjax('ToDoListItems');
+		ga.addParam('sysparm_name', 'add');
+		ga.addParam('short_description', newTodo);
+		ga.setScope('x_81232_marketing');
+		ga.getJSON(function(response) {
+			// don't need to do anything here
+		});
+    };
+
+	function load() {
+		var ga = new GlideAjax('ToDoListItems');
+		ga.addParam('sysparm_name', 'getList');
+		ga.setScope('x_81232_marketing');
+		ga.getJSON(function(response) {
+			if (!response)
+				return;
+			$scope.todos = response;
+		});
+	}
+});]]></script>
+        <script_name>app_angular_todo</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-21 08:36:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>deb947d44f176200ea7a7ab28110c750</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_81232_marketing.app_angular_todo</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>sys_ui_script_deb947d44f176200ea7a7ab28110c750</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-21 09:03:10</sys_updated_on>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

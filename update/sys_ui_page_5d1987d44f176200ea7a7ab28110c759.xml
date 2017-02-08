@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_81232_marketing_angular_todo.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<script language="javascript" src="x_81232_marketing.Angular_1_3_framework.jsdbx" />
+<script language="javascript" src="x_81232_marketing.app_angular_todo.jsdbx"></script>
+<script language="javascript" src="service.sn-glideAjax.jsdbx" />
+<div ng-app="todo">
+        <div class="col-md-6" ng-controller="TodoListCtrl">
+            <h1>Todo List</h1>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="todoItem in todos" ng-bind="todoItem"></li>
+            </ul>
+            <div>
+                <label>Add new todo:
+                    <input class="form-control" ng-model="newTodo"/>
+                </label>
+                <button ng-click="add(newTodo)" type="button" class="btn btn-primary">Add Todo</button>
+            </div>
+        </div>
+    {{myVar}}
+</div>
+</j:jelly>
+]]></html>
+        <name>angular_todo</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-21 08:33:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5d1987d44f176200ea7a7ab28110c759</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>angular_todo</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>sys_ui_page_5d1987d44f176200ea7a7ab28110c759</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-21 08:48:29</sys_updated_on>
+    </sys_ui_page>
+</record_update>

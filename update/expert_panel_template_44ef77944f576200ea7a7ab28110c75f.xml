@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="expert_panel_template">
+    <expert_panel_template action="INSERT_OR_UPDATE">
+        <banner_step/>
+        <complete_message>Done</complete_message>
+        <description/>
+        <expert display_value="Contract creation">3cb8f7144f576200ea7a7ab28110c779</expert>
+        <name> 3 Contract No Assets</name>
+        <next_message>Next</next_message>
+        <order/>
+        <previous_message>Previous</previous_message>
+        <script/>
+        <sys_class_name>expert_panel_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-21 12:32:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>44ef77944f576200ea7a7ab28110c75f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> 3 Contract No Assets</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_81232_marketing">8aa5945b4f432200ea7a7ab28110c7bd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">8aa5945b4f432200ea7a7ab28110c7bd</sys_scope>
+        <sys_update_name>expert_panel_template_44ef77944f576200ea7a7ab28110c75f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-21 12:32:26</sys_updated_on>
+        <table>x_81232_marketing_to_do_list_item</table>
+        <template/>
+        <title/>
+        <view/>
+    </expert_panel_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=44ef77944f576200ea7a7ab28110c75f"/>
+</record_update>
